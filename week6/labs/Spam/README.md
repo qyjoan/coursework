@@ -29,7 +29,7 @@ The spam data are available here https://spamassassin.apache.org/publiccorpus/20
 
 The ham data are available here https://spamassassin.apache.org/publiccorpus/20030228_easy_ham_2.tar.bz2
 
-**EXERCISE:** Run the spamFilter.py script available in the GitHub project.  You should see an error rate for the spam filter in the output.  To run Python scripts in Spark, first run the hamster.py to generate a single ham ans single spam data file, then use:
+**EXERCISE:** Run the spamFilter.py script available in the GitHub project.  You should see an error rate for the spam filter in the output.  To run Python scripts in Spark, first run the hamster.py to generate a single ham and single spam data file, then use:
 
 	$ scp -r ham.txt spark2:/root 
 	$ scp -r ham.txt spark3:/root
