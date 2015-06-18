@@ -38,7 +38,7 @@ The ham data are available here https://spamassassin.apache.org/publiccorpus/200
 
 To distribute the data files to the other nodes
 
-	$SPARK_HOME/bin/spark-submit --master spark://spark1 spamFilter.py
+	$SPARK_HOME/bin/spark-submit --master spark://spark1:7077 spamFilter.py
 
 Now lets walk through the code in spamFilter.py and see what its doing.
 
