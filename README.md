@@ -46,3 +46,13 @@ _There will be no in-class lab for this assignment_
 ### Homework
 
 0. [Apache Spark Introduction](week6/hw/apache_spark_introduction)
+
+### Labs
+
+0. [Machine Learning with Spark and MLLib](week6/labs/Spam)
+
+## Week 7: Object Storage
+
+### Homework
+
+0. [Object Storage](week7/hw)
