@@ -15,8 +15,8 @@ def main():
 	sc = SparkContext( appName="Spam Filter")
 
 	# Load the spam and ham data files into RDDs
-	spam = sc.textFile( "data/spam.txt" )
-	ham = sc.textFile( "data/ham.txt" )
+	spam = sc.textFile( "spam.txt" )
+	ham = sc.textFile( "ham.txt" )
 
 	# Create a HashingTF instance to map email text to vectors of 10,000 features.
 	tf = HashingTF(numFeatures = 10000)
